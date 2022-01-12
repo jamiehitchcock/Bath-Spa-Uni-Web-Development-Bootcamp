@@ -1,24 +1,103 @@
-ul{
-    list-style-type: none;
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.marioclub{
-    background-color: red;
-    color: white;
+header{
+    background-color: #F24236;
+    padding: 20px 0;
+    border: ;
+    margin: ;
     text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
-
+header h1{
+    color: white;
+    display: inline-block;
+    border: 8px solid white;
+    border-radius: 30px;
+    padding: 6px 12px;
+}
 .banner{
+    position: relative;
+}
+.banner img{
     max-width: 100%;
 }
-.images{
-    display: flex;
-    flex-direction: row;
+.banner .welcome{
+    background:yellow;
+    color: white;
+    padding: 10px;
+    font-size: 40px;
+    position: absolute;
+    top: 30%;
+}
+nav{
+    background-color: lightgrey;
+    padding: 15px;
+    position: sticky;
 }
 nav ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    text-align: center;
+    white-space: nowrap;
+    max-width: 100%;
 }
-main article h2{
-    color: red;
+nav li{
+    display: inline-block;
+    font-size: 30px;
+    padding:0 20px;
+}
+nav li a{
+    text-decoration: none;
+}
+main{
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 40px;
+    margin: auto;
+}
+article h2{
+    color: #F24236;
+    font-size: 80px;
+}
+article p{
+    color: grey;
+}
+.images{
+    margin: 10px;
+    white-space: nowrap;
+    max-width: 100%;
+}
+.images li{
+    display: inline-block;
+    position: relative;
+    margin: 20px;
+    list-style: none;
+    max-width: 100%;
+}
+.join{
+    background-color: white;
+    text-align: center;
+    padding: 60px 20px;
+    color: grey;
+}
+.join h2{
+    font-size: 40px;
+}
+form input{
+    margin: 20px 0;
+    font-size: 24px;
+    border-radius: 28px;
+    border: 4px solid white;
+}
+footer{
+    background-color: #F24236;
+    color: white;
+    padding: 20px 0;
+    border: ;
+    margin: ;
+    text-align: center;
+    width: 100%;
 }
