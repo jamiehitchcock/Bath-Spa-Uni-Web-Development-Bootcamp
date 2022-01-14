@@ -4,11 +4,13 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     box-sizing: border-box;
 }
+.center{
+    max-width: 60%;
+    margin: auto;
+}
 header{
     background-color: #F24236;
     padding: 20px 0;
-    border: ;
-    margin: ;
     text-align: center;
     position: fixed;
     width: 100%;
@@ -25,20 +27,22 @@ header h1{
     position: relative;
 }
 .banner img{
-    max-width: 100%;
+    width: 100%;
+    height: auto;
 }
 .banner .welcome{
-    background:yellow;
+    background: #FEB614;
     color: white;
     padding: 10px;
-    font-size: 40px;
+    font-size: 60px;
     position: absolute;
     top: 30%;
 }
 nav{
     background-color: lightgrey;
-    padding: 15px;
+    padding: 20px;
     position: sticky;
+    top: 100px;
 }
 nav ul{
     text-align: center;
@@ -52,11 +56,16 @@ nav li{
 }
 nav li a{
     text-decoration: none;
+    color:grey;
+}
+nav li #active{
+    color: red;
 }
 main{
     max-width: 100%;
     padding: 40px;
-    margin: auto;
+    width: 1200px;
+    margin: 80px auto;
 }
 article h2{
     color: #F24236;
@@ -64,21 +73,25 @@ article h2{
 }
 article p{
     color: grey;
+    font-size: 48px;
 }
 .images{
-    margin: 10px;
+    margin: 80px 0;
     white-space: nowrap;
+}
+.images img{
     max-width: 100%;
+    height: auto;
 }
 .images li{
-    display: inline-block;
-    position: relative;
-    margin: 20px;
     list-style: none;
-    max-width: 100%;
+    display: inline-block;
+    width: 40%;
+    position: relative;
+    margin:  20px 5%;
 }
 .join{
-    background-color: white;
+    background-color: #F4F4F4;
     text-align: center;
     padding: 60px 20px;
     color: grey;
