@@ -1,0 +1,53 @@
+.container{
+    background-color: greenyellow;
+}
+.box{
+    width: 250px;
+    height: 250px;
+    position: relative;
+    text-align: center;
+}
+#box1{
+    background-color: green;
+    animation-name: Jamie1;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-out;
+}
+#box2{
+    background-color: orange;
+    position: relative;
+    animation-name: Jamie2;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+    animation-timing-function: ease-in;
+}
+@keyframes Jamie1{
+    from{
+        width: 20vw;
+    }
+    to{
+        width: 100vw;
+    }
+}
+
+@keyframes Jamie2{
+    0%{
+        top: 0px;
+        left: 0px;
+    }
+    25%{
+        top: 250px;
+        left: 0px;
+    }
+    75%{
+        top: 250px;
+        left: 250px;
+    }
+    100%{
+        top: 0px;
+        left: 250px;
+    }
+}
