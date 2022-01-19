@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+#box{
+    display: flex;
+    height: 25vh;
+    width: 25vh;
+    background-color: magenta;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: solid black 5px;
+    transition: 1.5s ease-in-out;
+}
+#box:hover{
+    background-color: cyan;
+    transform: scale(2) rotate(360deg);
+    border-radius: 50%;
+    transition: 1.5s ease-in-out;
+    color:red;
+}
