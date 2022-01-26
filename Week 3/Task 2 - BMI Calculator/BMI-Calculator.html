@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI calculator</title>
+</head>
+<body>
+    <h1>BMI Calculator</h1>
+    <p>The script will calculate your BMI and tell you if you are at a healthy weight or not.</p>
+    <script>
+        function bmiCalculator(weight, height){
+             let bmi = weight/(height*height);
+             bmi = Math.round(bmi);
+             if (bmi < 18.5){
+                 return `Your BMI is ${bmi}, so you are underweight.`
+             }
+             else if (bmi <18.5 && bmi > 24.9){
+                 return `Your BMI is ${bmi}, so you have a normal weight.`
+             }
+             else {
+                 return `Your BMI is ${bmi}, so you are overweight.`
+             }
+            }
+    </script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Lunch Name Generator</title>
+</head>
+<body>
+    <h1>Random Lunch Name Generator</h1>
+    <p>The script will generate a random name, from a list of names. The person selected will have to pay for everybody's food bill.</p>
+    <script>
+        //Enter list of names in an array.
+        // let namesArr = ["Angela", "Ben", "Jenny", "Michael", "Chloe"];
+        function lunchNamesGenerator(namesArr){
+            let chosenName = namesArr[Math.floor(Math.random()*namesArr.length)];
+            return chosenName;
+            }
+    </script>
+</body>
+</html>
