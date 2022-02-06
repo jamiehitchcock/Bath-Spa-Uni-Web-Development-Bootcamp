@@ -2,35 +2,24 @@
     margin: 0;
     top: 0;
 }
-body, html, 
-/* .container-fluid  */
-{
+body, html{
     height: 100%;
+    background-color: #061A40;
 }
-
+body{
+    background: 
+        url(media/MB\ Rings\ Top.png) left top no-repeat,
+        url(media/MB\ Rings\ Left.png) left bottom no-repeat, 
+        url(media/MB\ Rings\ Right.png) right top no-repeat; 
+        background-size: 40vw, 30vw, 30vh;
+}
+h1 , p{
+    color: white;
+}
 .container-fluid{
     height: 95vh;
-}
-
-#gap-row{
-    height: 10%;
-    background-color: cyan;
 }
 #content-row{
     height: 100%;
 }
-#hero-image{
-    
-    
-}
 
-
-.col-1{
-    background-color: red;
-}
-.col-4{
-    background-color: green;
-}
-.col-6{
-    background-color: blue;
-}
