@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    top: 0;
+}
+body, html, 
+/* .container-fluid  */
+{
+    height: 100%;
+}
+
+.container-fluid{
+    height: 95vh;
+}
+
+#gap-row{
+    height: 10%;
+    background-color: cyan;
+}
+#content-row{
+    height: 100%;
+}
+#hero-image{
+    
+    
+}
+
+
+.col-1{
+    background-color: red;
+}
+.col-4{
+    background-color: green;
+}
+.col-6{
+    background-color: blue;
+}
