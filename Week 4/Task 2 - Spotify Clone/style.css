@@ -11,7 +11,7 @@ body{
         url(media/MB\ Rings\ Top.png) left top no-repeat,
         url(media/MB\ Rings\ Left.png) left bottom no-repeat, 
         url(media/MB\ Rings\ Right.png) right top no-repeat; 
-        background-size: 40vw, 30vw, 30vh;
+        background-size: 1000px, 600px, 400px;
 }
 h1 , p{
     color: white;
