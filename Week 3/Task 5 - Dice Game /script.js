@@ -3,6 +3,7 @@
 let result = document.getElementById("result");
 let die1Image = document.getElementById("die1");
 let die2Image = document.getElementById("die2");
+let btn = document.getElementById("btn");
 
 //function to play the game
 function play() {
@@ -61,3 +62,7 @@ function play() {
 document.addEventListener("DOMContentLoaded", function () {
     play();
 });
+
+btn.addEventListener("click", function(){
+    play();
+})
