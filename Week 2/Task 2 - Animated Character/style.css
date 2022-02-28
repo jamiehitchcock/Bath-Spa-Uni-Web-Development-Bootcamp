@@ -3,7 +3,11 @@ body {
     margin: 0;
     padding: 0;
   }
-  
+  h1{
+    text-align: center;
+    margin: 10vh;
+    font-size: 4rem;
+}
   .sprite {
     position: absolute;
     top: 50%;
@@ -14,13 +18,7 @@ body {
     animation: sprite 0.8s steps(21) infinite;
     transform: translate(-50%, -50%) scale(0.5);
   }
-
   @keyframes sprite {
     to { background-position: -30072px }
   }
-  
-  h1{
-      text-align: center;
-      margin-top: 20%;
-      font-size: 5vh;
-  }
+ 
